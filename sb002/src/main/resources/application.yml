@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.56.88/t1
+    username: root
+    password: Abcd1234$
+  jpa:
+    show-sql: true
+  jackson:
+    serialization:
+      indent-output: true
